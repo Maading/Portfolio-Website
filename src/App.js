@@ -10,7 +10,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router basename="/Portfolio-Website">
+      <Router basename={process.env.PUBLIC_URL}>
       <Routes>  
           <Route path="/" element={<Home />}  />
           <Route path="/photography" element={<Photo_page/>}  />
