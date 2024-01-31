@@ -39,7 +39,7 @@ export const NavBar_photo = ({ onTagClick }) => {
 
   const handleRefresh = () => {
     // Reload the entire application
-    window.location.href = '/';
+    window.location.href = '/Portfolio-Website';
   };
 
   return (

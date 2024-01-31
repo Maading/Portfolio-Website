@@ -10,7 +10,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Portfolio-Website">
       <Routes>  
           <Route path="/" element={<Home />}  />
           <Route path="/photography" element={<Photo_page/>}  />
